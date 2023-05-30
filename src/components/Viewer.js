@@ -50,7 +50,7 @@ export default function Viewer() {
       <Typography variant="h5">Enter Code:</Typography>
       <TextField margin="normal" value={value} onChange={handleChange} />
       <Button variant="outline" onClick={handleClick}>
-        Join Room
+        Go To Room
       </Button>
       <Snackbar
         open={open}
