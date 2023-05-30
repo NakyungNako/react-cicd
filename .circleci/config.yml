@@ -5,6 +5,30 @@ version: 2.1
 # See: https://circleci.com/docs/orb-intro/
 orbs:
   node: circleci/node@4.7
+  docker: circleci/docker@2.2.0
+
+jobs:
+  build-and-push:
+    environment: 
+      DOCKER_IMAGE: react-cicd
+      DOCKER_TAG: latest
+    executor: docker/docker
+    steps:
+      - setup_remote_docker
+      - checkout
+      - docker/check:
+          docker-username: DOCKER_LOGIN
+          docker-password: DOCKER_PASSWORD
+      - docker/build:
+          image: $DOCKER_LOGIN/$DOCKER_IMAGE
+          tag: $DOCKER_TAG
+      - docker/push:
+          digest-path: /tmp/digest.txt
+          image: $DOCKER_LOGIN/$DOCKER_IMAGE
+          tag: $DOCKER_TAG
+      - run:
+          command: |
+            echo "Digest is: $(</tmp/digest.txt)"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
@@ -19,3 +43,10 @@ workflows:
           version: '16.10'
           # If you are using yarn, change the line below from "npm" to "yarn"
           pkg-manager: npm
+      - build-and-push:
+          requires:
+            - node/test
+          filters:
+            branches:
+              only:
+                - main
