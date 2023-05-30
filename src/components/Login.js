@@ -151,7 +151,7 @@ export default function Login() {
     >
       <Paper elevation={20} style={{ padding: 30, width: 300 }}>
         <Grid align="center" marginBottom={5}>
-          <Typography variant="h5">Welcome, My Friend!</Typography>
+          <Typography variant="h5">Welcome to Buddy, My Friend!</Typography>
         </Grid>
         <FormikProvider value={formik}>
           <Form autoComplete="off" noValidate onSubmit={handleSubmit}>
