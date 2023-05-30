@@ -1,23 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Login from "./components/Login";
+import NavBar from "./components/NavBar/NavBar";
+import Register from "./components/Register";
+import RequireAuth from "./components/RequireAuth";
+import NotFound from "./components/NotFound";
+import PersistLogin from "./components/PersistLogin";
+import Users from "./components/Users";
+import useAuth from "./hooks/useAuth";
+import LoggedNavBar from "./components/NavBar/LoggedNavBar";
+import Main from "./components/Main";
+import EmailVerification from "./components/EmailVerification";
+import JoinGroup from "./components/JoinGroup";
+import EditPresentation from "./components/Presentation/EditPresentation/EditPresentation";
+import ShowPresentation from "./components/Presentation/EditPresentation/ShowPresentation";
+import JoinRoom from "./components/JoinRoom";
+import PresentViewer from "./components/PresentViewer";
 
 function App() {
+  const { auth } = useAuth();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!auth.accessToken ? <NavBar /> : <LoggedNavBar />}
+      <Routes>
+        <Route path="/signup" exact element={<Register />} />
+        <Route path="/login" exact element={<Login />} />
+        <Route
+          path="/verifyUserEmail/:username/:token"
+          exact
+          element={<EmailVerification />}
+        />
+
+        {/* protected routes */}
+        <Route element={<PersistLogin />}>
+          <Route element={<RequireAuth />}>
+            <Route path="/" exact element={<Main />} />
+            <Route path="/users" exact element={<Users />} />
+            <Route
+              path="/joingroup/:grouptoken"
+              exact
+              element={<JoinGroup />}
+            />
+            <Route path="/edit/:groupId" exact element={<EditPresentation />} />
+            <Route
+              path="/slideshow/:presentId"
+              exact
+              element={<ShowPresentation />}
+            />
+            <Route path="/roomjoining" exact element={<JoinRoom />} />
+            <Route path="/presentViewer" exact element={<PresentViewer />} />
+          </Route>
+        </Route>
+
+        {/* others */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </div>
   );
 }
