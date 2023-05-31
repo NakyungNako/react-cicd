@@ -6,6 +6,7 @@ version: 2.1
 orbs:
   node: circleci/node@4.7
   docker: circleci/docker@2.2.0
+  katalon-studio: katalon/katalon-studio@23.0.11
 
 jobs:
   build-and-push:
@@ -57,6 +58,12 @@ workflows:
             branches:
               only:
                 - main
-      - deploy:
+      - katalon-studio/run:
           requires:
             - build-and-push
+          version: latest
+          command_arguments: >-
+            -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Test_Suites'
+      - deploy:
+          requires:
+            - katalon-studio/run
