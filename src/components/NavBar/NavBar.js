@@ -1,6 +1,7 @@
 import { AppBar, Box, Button, Toolbar, Typography } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
+import { GOOGLE_CLIENT_ID } from "../../config/config";
 
 export default function NavBar() {
   return (
@@ -9,7 +10,7 @@ export default function NavBar() {
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-              ${process.env.REACT_APP_SERVER_URL}
+              {GOOGLE_CLIENT_ID}
             </Link>
           </Typography>
           <Link to="/login" style={{ textDecoration: "none", color: "white" }}>
