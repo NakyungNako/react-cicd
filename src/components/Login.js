@@ -201,7 +201,7 @@ export default function Login() {
                 variant="contained"
                 disabled={isSubmitting}
               >
-                Log in
+                Sign in
               </Button>
               <Divider>OR</Divider>
               <Grid container justifyContent="center">
