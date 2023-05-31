@@ -10,7 +10,7 @@ export default function NavBar() {
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-              {GOOGLE_CLIENT_ID}
+              Registration
             </Link>
           </Typography>
           <Link to="/login" style={{ textDecoration: "none", color: "white" }}>
