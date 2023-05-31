@@ -9,7 +9,7 @@ export default function NavBar() {
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-              Registration
+              ${process.env.REACT_APP_SERVER_URL}
             </Link>
           </Typography>
           <Link to="/login" style={{ textDecoration: "none", color: "white" }}>
