@@ -34,7 +34,18 @@ export default function CustomizedInputBase({ token }) {
           sx={{ p: "10px" }}
           aria-label="search"
           onClick={() => {
-            navigator.clipboard.writeText(link);
+            // navigator.clipboard.writeText(link);
+            const textArea = document.createElement("textarea");
+            textArea.value = link;
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            try {
+              document.execCommand('copy');
+            } catch (error) {
+              console.error('Unable to copy to clipboard', error);
+            }
+            document.body.removeChild(textArea);
           }}
         >
           <ContentCopy />
