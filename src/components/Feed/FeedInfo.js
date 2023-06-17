@@ -128,6 +128,19 @@ export default function FeedInfo() {
     updateGroup(updatedGroup);
   };
 
+  const handleDeleteGroup = async (userId) => {
+    const index = groups.findIndex(x => x._id === selectedGroup._id);
+    const response = await axiosPrivate.post("/api/group/delete", {
+      groupId: selectedGroup._id,
+      userId,
+    });
+    setGroups(response.data.data);
+    if(index + 1 === groups.length) {
+      setSelectedGroup(groups[index - 1]);
+    } else setSelectedGroup(response.data.data[index]);
+    
+  } 
+
   const handleProfile = (userName, userPicture) => {
     setMemberProfile({ username: userName, picture: userPicture });
     setOpenProfile(true);
@@ -278,6 +291,9 @@ export default function FeedInfo() {
           ))}
         </List>
       </Grid>
+      <Button variant="outlined" color="error" onClick={() => handleDeleteGroup(auth.id)}>
+        Delete
+      </Button>
       <Dialog
         open={openDialog}
         onClose={handleCloseDialog}
