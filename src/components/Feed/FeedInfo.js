@@ -291,9 +291,9 @@ export default function FeedInfo() {
           ))}
         </List>
       </Grid>
-      <Button variant="outlined" color="error" onClick={() => handleDeleteGroup(auth.id)}>
+      {isOwner && <Button variant="outlined" color="error" onClick={() => handleDeleteGroup(auth.id)}>
         Delete
-      </Button>
+      </Button>}
       <Dialog
         open={openDialog}
         onClose={handleCloseDialog}
