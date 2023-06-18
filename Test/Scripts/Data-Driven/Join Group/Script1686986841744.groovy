@@ -61,8 +61,6 @@ WebUI.setText(findTestObject('Object Repository/Group/Page_React App/input_creat
 //        Keys.CONTROL, 'v'))
 WebUI.click(findTestObject('Object Repository/Group/Page_React App/button_Go'))
 
-WebUI.click(findTestObject('Object Repository/Group/Page_React App/h5_testgroup2'))
-
 WebUI.verifyElementText(findTestObject('Object Repository/Group/Page_React App/h5_testgroup2'), 'testgroup2')
 
 WebUI.closeBrowser()

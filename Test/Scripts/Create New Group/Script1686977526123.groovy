@@ -35,8 +35,6 @@ WebUI.setText(findTestObject('Object Repository/Page_React App/input_Create Pres
 
 WebUI.click(findTestObject('Page_React App/button_createGroup'))
 
-WebUI.click(findTestObject('Object Repository/Page_React App/p_testgroup2'))
-
 WebUI.verifyElementText(findTestObject('Object Repository/Page_React App/p_testgroup2'), 'testgroup2')
 
 WebUI.closeBrowser()
