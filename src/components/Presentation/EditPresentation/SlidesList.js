@@ -34,7 +34,11 @@ export default function SlidesList() {
     const response = await axiosPrivate.put("/api/present/addslide", {
       id: present._id,
     });
-    if (response.data) setPresent(response.data);
+    if (response.data) {
+      setPresent(response.data)
+      const length = response.data.slides.length;
+      setSelectedSlide(response.data.slides[length-1]);
+    };
   };
 
   useEffect(() => {
