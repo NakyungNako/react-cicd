@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Object Repository/Group/Page_React App/button_Cancel
 'Refresh the current web page'
 WebUI.refresh()
 
-WebUI.setText(findTestObject('Page_React App/input_Username_username'), username)
+WebUI.setText(findTestObject('Page_React App/input_Username_username2nd'), username)
 
 WebUI.setEncryptedText(findTestObject('Page_React App/input_Password_password'), 'CSt51UwWECc=')
 
