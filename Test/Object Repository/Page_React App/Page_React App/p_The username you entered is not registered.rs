@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_The username you entered is not registered</name>
+   <tag></tag>
+   <elementGuidId>f5cad5ed-adaf-48cf-8b0f-e3a492d0aedd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#alert-dialog-description</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='alert-dialog-description']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>889adad1-f380-4422-b241-5723c4d8f856</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiDialogContentText-root css-o3d33y</value>
+      <webElementGuid>e1537310-92ae-47fd-9f05-5c0672643b7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>alert-dialog-description</value>
+      <webElementGuid>e6e3f6de-1fd5-4e6e-8c52-8b44621757ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The username you entered is not registered.</value>
+      <webElementGuid>34ac10c3-d2a4-40c6-8ba0-e3a3f7e60448</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;alert-dialog-description&quot;)</value>
+      <webElementGuid>cfdb71e0-ed1e-4048-b69b-debe5a9fbb11</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id='alert-dialog-description']</value>
+      <webElementGuid>6a4bd668-4ef1-4dea-9e6a-b658923655c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit Report'])[1]/following::p[1]</value>
+      <webElementGuid>b7684bf2-8e6f-4a5f-bc16-5a27fc33d598</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'alert-dialog-description', '&quot;', ')')])[1]/following::p[1]</value>
+      <webElementGuid>0da52685-f2ef-4815-91a2-95b2266db657</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Okay'])[1]/preceding::p[1]</value>
+      <webElementGuid>05adccb9-fb16-4313-aa5e-4142bdde2074</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='The username you entered is not registered.']/parent::*</value>
+      <webElementGuid>0ffbbbd4-4877-44a1-ab09-219056735f6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>bc4e2602-3a09-4403-8298-957523095d55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'alert-dialog-description' and (text() = 'The username you entered is not registered.' or . = 'The username you entered is not registered.')]</value>
+      <webElementGuid>bae51994-fc4f-4ac2-9afe-eb268665b514</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

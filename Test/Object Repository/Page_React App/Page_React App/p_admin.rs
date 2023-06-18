@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_admin</name>
+   <tag></tag>
+   <elementGuidId>f062ea4a-0ab2-4698-b8db-a09ac4bb3c0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div[3]/div[2]/div[2]/ul/div[2]/li/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>71de1a76-0461-40ea-b6ea-d3f2a0b92305</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-mbfek</value>
+      <webElementGuid>4994ee08-1efe-4f41-b136-26e76a5eead4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>admin</value>
+      <webElementGuid>44db1d1d-edff-4149-a313-c0ff6cbb23cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;MuiStack-root css-48h5p0&quot;]/div[@class=&quot;MuiBox-root css-kzfr2u&quot;]/div[@class=&quot;MuiGrid-root css-1rtxmi4&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1116j2t&quot;]/ul[@class=&quot;MuiList-root MuiList-padding css-1ontqvh&quot;]/div[@class=&quot;MuiBox-root css-0&quot;]/li[@class=&quot;MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1ougl0f&quot;]/div[@class=&quot;MuiListItemText-root MuiListItemText-multiline css-1xar93x&quot;]/p[@class=&quot;MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-mbfek&quot;]</value>
+      <webElementGuid>fe2945bb-d0f9-4407-aca3-a5fb2eabca80</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[3]/div[2]/div[2]/ul/div[2]/li/div[2]/p</value>
+      <webElementGuid>2a68c540-f0ca-4ce1-85f2-1ad121e10f9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='account2'])[1]/following::p[1]</value>
+      <webElementGuid>32cd503d-3766-4b1f-b303-21f87b7ac8a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='account1'])[2]/following::p[2]</value>
+      <webElementGuid>c51f5f94-f69e-4a42-8897-eae388853a7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='account3'])[1]/preceding::p[1]</value>
+      <webElementGuid>2dc2a67e-2e46-43be-9e5d-e4c1e9d97a43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='account4'])[1]/preceding::p[2]</value>
+      <webElementGuid>17bb3363-c20f-4c8c-99e8-39148000826a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='admin']/parent::*</value>
+      <webElementGuid>140b05d2-bdc2-464b-ac25-23a7a9ad3f9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/li/div[2]/p</value>
+      <webElementGuid>3e82a22e-3953-449a-88e5-c46fe67043e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'admin' or . = 'admin')]</value>
+      <webElementGuid>4d51b60d-f9c1-4219-89fe-4d50f31cc15e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

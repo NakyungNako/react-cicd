@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register API</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b78a21c-3aa1-4c22-86cb-09cf810ca5a7</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a2d001d3-cb09-4150-9c95-4479f2265a7d</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Register</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>a2d001d3-cb09-4150-9c95-4479f2265a7d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>bodyString</value>
+      <variableId>ae8b8cbe-ab26-4bb7-80e3-0688fe296830</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a2d001d3-cb09-4150-9c95-4479f2265a7d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>message</value>
+      <variableId>ece1ef54-feeb-497b-866b-4840ee00798d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'{&quot;username&quot;:&quot;demoaccount1&quot;,&quot;email&quot;:&quot;test123@gmail.com&quot;,&quot;password&quot;:&quot;123123&quot;,&quot;confirmPassword&quot;:&quot;123123&quot;}'</defaultValue>
+      <description></description>
+      <id>ae8b8cbe-ab26-4bb7-80e3-0688fe296830</id>
+      <masked>false</masked>
+      <name>bodyString</name>
+   </variable>
+   <variable>
+      <defaultValue>'Email has already registered'</defaultValue>
+      <description></description>
+      <id>ece1ef54-feeb-497b-866b-4840ee00798d</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+</TestCaseEntity>

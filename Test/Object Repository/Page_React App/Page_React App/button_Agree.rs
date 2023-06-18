@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Okay</name>
+   <name>button_Agree</name>
    <tag></tag>
-   <elementGuidId>629878a3-db8f-4eb0-8b1d-cbe50e0fb45f</elementGuidId>
+   <elementGuidId>4b91fe5d-1896-47ec-bfed-cc663c40da50</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <value>/html/body/div[2]/div[3]/div/div[2]/button[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.css-1ujsas3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c561b098-25e0-4557-9af2-589e2667e929</webElementGuid>
+      <webElementGuid>98af4072-b342-4455-b726-19ad52250ba7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1ujsas3</value>
-      <webElementGuid>a294b4e3-be27-4743-8278-54228ebe492b</webElementGuid>
+      <webElementGuid>62e7d2fa-327a-4c73-acc2-841cf46a355d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>0bf09e39-7af9-47d5-ae9c-1f357664dc10</webElementGuid>
+      <webElementGuid>d9917857-7fba-4c8b-bf55-01bd2274c38e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,15 +45,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cd9215bb-8d02-4ff1-9e96-ac757bddbdb2</webElementGuid>
+      <webElementGuid>015c6285-f7ad-4abf-bbae-e68012cc3a7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Okay</value>
-      <webElementGuid>1ebb1308-a0be-483d-b657-6fd51e5ddac6</webElementGuid>
+      <value>Agree</value>
+      <webElementGuid>c7d64168-f7e7-40e1-b60f-14e995b27b12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,54 +61,54 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;MuiDialog-root MuiModal-root css-126xj0f&quot;]/div[@class=&quot;MuiDialog-container MuiDialog-scrollPaper css-ekeie0&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-uhb5lp&quot;]/div[@class=&quot;MuiDialogActions-root MuiDialogActions-spacing css-14b29qc&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1ujsas3&quot;]</value>
-      <webElementGuid>1812f6f2-d394-4300-af88-21b3889f4c2e</webElementGuid>
+      <webElementGuid>a6c03f25-7027-4ddd-b6c8-73b0fff2331c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>528dae74-9874-4360-b31b-4eaabf57f36e</webElementGuid>
+      <value>(//button[@type='button'])[22]</value>
+      <webElementGuid>4bc79d0f-03fa-4e64-8027-ddcde7d7bf09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit Report'])[1]/following::button[1]</value>
-      <webElementGuid>242e520f-a678-4052-b70f-a6ce5003e1cb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disagree'])[1]/following::button[1]</value>
+      <webElementGuid>b51f761b-0db6-4d23-89f2-a03198c8433b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/following::button[1]</value>
-      <webElementGuid>fca22de1-53b1-4460-86b0-65a0f774c685</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Presentation'])[1]/following::button[2]</value>
+      <webElementGuid>18ba0c4c-2689-44ac-a34f-2bfe3a3a8059</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Okay']/parent::*</value>
-      <webElementGuid>a24c6546-6065-4091-a2e6-d7735487ecc8</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Agree']/parent::*</value>
+      <webElementGuid>a3af2b69-265d-4e4e-9ccf-998e1387868b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/button</value>
-      <webElementGuid>73e0346e-21cf-46ee-abfe-db48a6a9abb7</webElementGuid>
+      <value>//div[3]/div[3]/div/div[2]/button[2]</value>
+      <webElementGuid>f5fc4131-2dd9-439f-9642-37da0e803b3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Okay' or . = 'Okay')]</value>
-      <webElementGuid>7bb1cf80-aa05-44fb-ab35-922ab1884b9b</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Agree' or . = 'Agree')]</value>
+      <webElementGuid>a49036eb-4ad7-44b8-a05f-8df2cf8003d7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

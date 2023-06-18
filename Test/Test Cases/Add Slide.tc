@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Slide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8d860df-801f-4d98-9f05-54f377a62f8f</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>220cff77-bb44-406b-8894-6faa8c460376</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/5 slides</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>220cff77-bb44-406b-8894-6faa8c460376</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>slide</value>
+      <variableId>b5030ba7-475a-41f8-87c5-3f4c3a7f37a0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>220cff77-bb44-406b-8894-6faa8c460376</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>result</value>
+      <variableId>524947d0-4554-4d3d-a490-86c16c2bc574</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'new slide 1'</defaultValue>
+      <description></description>
+      <id>b5030ba7-475a-41f8-87c5-3f4c3a7f37a0</id>
+      <masked>false</masked>
+      <name>slide</name>
+   </variable>
+   <variable>
+      <defaultValue>'new slide 1'</defaultValue>
+      <description></description>
+      <id>524947d0-4554-4d3d-a490-86c16c2bc574</id>
+      <masked>false</masked>
+      <name>result</name>
+   </variable>
+</TestCaseEntity>

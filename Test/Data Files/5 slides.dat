@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>5 slides</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>05636204-e97d-4f08-b7a6-73d053f912c5</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>test+slide+1 test+slide+1</data>
+   <data>TEST+SLIDE+2 TEST+SLIDE+2</data>
+   <data>%3F%3F%3F123 %3F%3F%3F123</data>
+   <data>.opSlide4%25 .opSlide4%25</data>
+   <data>LastSlide123123123 LastSlide123123123</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>slide</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>result</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

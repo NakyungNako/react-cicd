@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Presentation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47f0dbcf-0f23-4e30-bf79-10b44e7af2d3</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5eedc102-aa24-448b-9571-0c08e2d5ae60</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/5 presentations</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5eedc102-aa24-448b-9571-0c08e2d5ae60</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>presentation</value>
+      <variableId>b8ce7f48-e29e-4d3f-b440-5a94d5fb5221</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5eedc102-aa24-448b-9571-0c08e2d5ae60</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>result</value>
+      <variableId>fdbbf820-9446-483b-b4ce-805571c6fba7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'presentation1'</defaultValue>
+      <description></description>
+      <id>b8ce7f48-e29e-4d3f-b440-5a94d5fb5221</id>
+      <masked>false</masked>
+      <name>presentation</name>
+   </variable>
+   <variable>
+      <defaultValue>'presentation1'</defaultValue>
+      <description></description>
+      <id>fdbbf820-9446-483b-b4ce-805571c6fba7</id>
+      <masked>false</masked>
+      <name>result</name>
+   </variable>
+</TestCaseEntity>

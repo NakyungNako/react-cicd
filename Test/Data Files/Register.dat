@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Register</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>b252ca3e-667d-445b-b374-8e5d0203501e</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>%7B%22username%22%3A%22testaccount1%22%2C%22email%22%3A%22lingardinho284%40gmail.com%22%2C%22password%22%3A%22123123%22%2C%22confirmPassword%22%3A%22123123%22%7D Email+has+already+registered</data>
+   <data>%7B%22username%22%3A%22testaccount1%22%2C%22email%22%3A%22test123%40gmail.com%22%2C%22password%22%3A%22123123%22%2C%22confirmPassword%22%3A%22123123%22%7D Username+has+been+taken</data>
+   <data>%7B%22username%22%3A%22testaccount2%22%2C%22email%22%3A%22test123%40gmail.com%22%2C%22password%22%3A%22123123%22%2C%22confirmPassword%22%3A%2212abc3%22%7D Confirm+password+is+incorrect</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>bodyString</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>message</name>
+      <size>3</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

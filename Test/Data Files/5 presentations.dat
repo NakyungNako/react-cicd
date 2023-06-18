@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>5 presentations</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ff961fca-5dc0-4cf6-afe5-e7fbe8f1ba0a</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>presentation1 presentation1</data>
+   <data>presentation2 presentation2</data>
+   <data>new+presentation new+presentation</data>
+   <data>ABC%3FXYZ ABC%3FXYZ</data>
+   <data>999pre 999pre</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>presentation</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>result</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

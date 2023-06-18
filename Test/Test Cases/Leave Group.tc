@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Leave Group</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2a433c5-2acf-483f-ac92-4944541ebfa2</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>21dce14b-25fb-4f74-9ee4-c0190aacc00a</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/LeaveGroup</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>21dce14b-25fb-4f74-9ee4-c0190aacc00a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>0893a6d0-cf7a-48f7-bd66-71f00f95d1e8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'account1'</defaultValue>
+      <description></description>
+      <id>0893a6d0-cf7a-48f7-bd66-71f00f95d1e8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
